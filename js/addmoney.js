@@ -17,6 +17,9 @@ document.getElementById("btn-add-money")
     else if(accountNumber.length!==11 || accountNumber[0]!=="2"){
         alert("please valid account number")
     }
+    else if(amount==""){
+        alert("please input your amount")
+    }
     else if(transferAmount<50){
         alert("please minimum amount 50 tk")
     }
